@@ -1,0 +1,31 @@
+ nav.menu {
+    background-color: #2e7d32;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav.menu a {
+    background-color: #a5d6a7;
+    color: #1b5e20;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.05em;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+nav.menu a:hover {
+    background-color: #81c784;
+    transform: scale(1.05);
+    color: #0d3b14;
+}
+
+nav.menu a.activo {
+    background-color: #66bb6a;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

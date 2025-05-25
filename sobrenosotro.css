@@ -1,0 +1,46 @@
+
+ .sobre-nosotros {
+  background: linear-gradient(135deg, #a1d6a1, #4caf50);
+  color: white;
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 50px 30px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.sobre-nosotros h2 {
+  font-size: 3em;
+  margin-bottom: 30px;
+  font-weight: 800;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.sobre-nosotros p {
+  font-size: 1.4em;
+  margin: 20px 0;
+  line-height: 1.6;
+  font-weight: 600;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.boton-muestra {
+  margin-top: 40px;
+  display: inline-block;
+  background-color: #2e7d32;
+  color: white;
+  padding: 18px 48px;
+  font-size: 1.3em;
+  font-weight: 700;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 8px 20px rgba(46, 125, 50, 0.7);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.boton-muestra:hover {
+  background-color: #1b4d1b;
+  transform: scale(1.05);
+}  
